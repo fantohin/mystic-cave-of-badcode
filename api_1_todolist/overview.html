@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>task list v0.0</title>
+</head>
+<body>
+    <form action="/add" method="post">
+        <div>
+            <label for="add_description">Description:</label>
+            <input type="text" id="add_description" name="task_description" />
+        </div>
+
+        <div>
+            <label for="add_days">Days:</label>
+            <input type="text" id="add_days" name="task_days" />
+        </div>
+
+        <div>
+            <label for="add_priority">Priority:</label>
+            <input type="text" id="add_priority" name="task_priority"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Add task</button>
+        </div>
+    </form>
+	    <form action="/set" method="post">
+        <div>
+            <label for="set_id">id:</label>
+            <input type="text" id="set_id" name="task_id" />
+        </div>
+
+        <div>
+            <label for="set_done_percentage">Done percentage (0-100):</label>
+            <input type="text" id="set_done_percentage" name="task_done_percentage" />
+        </div>
+
+        <div>
+            <label for="set_priority">Priority:</label>
+            <input type="text" id="set_priority" name="task_priority"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Set task</button>
+        </div>
+    </form>
+	<form action="/show" method="post">
+        <div class="button">
+            <button type="submit">Show tasks</button>
+        </div>
+    </form>
+</body>
+</html>
