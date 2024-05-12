@@ -54,7 +54,7 @@ class CustomRequestHandler(http.server.BaseHTTPRequestHandler):
             # Добавляем новую задачу в массив
             new_task_data['id'] = prev_tasks_count
             new_task_data['task_done_level'] = 0
-            new_task_data['creation time'] = datetime.now().isoformat()
+            new_task_data['creation_time'] = datetime.now().isoformat()
             all_tasks.append(new_task_data)
             tasks_count = len(all_tasks)
             print(f"task count after new one: {tasks_count}")
