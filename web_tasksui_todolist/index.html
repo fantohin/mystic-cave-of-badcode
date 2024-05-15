@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="task-form">
+        <label for="tasks-json-url">Tasks JSON URL:</label>
+        <input type="text" id="tasks-json-url" name="tasks-json-url" required>
+        <button type="submit">Submit</button>
+    </form>
+	<details>
+		<summary>Активные задачи:
+		</summary>
+		<div id="task-container"></div>
+	</details>
+	<details>
+		<summary>Выполненно:
+		</summary>
+		<div id="completed-task-container"></div>
+	</details>
+	<script src="script.js"></script>
+</body>
+</html>

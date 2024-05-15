@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#task-container {
+    margin: 20px;
+}
+
+.task-group {
+    margin-bottom: 20px;
+}
+
+.task-group h3 {
+    margin: 0;
+}
+
+.task {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.task-title {
+    font-weight: bold;
+}
+
+.task-details {
+    color: #666;
+}
