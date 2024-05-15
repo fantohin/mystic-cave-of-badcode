@@ -5,6 +5,10 @@ import json
 from datetime import datetime
     
 class CustomRequestHandler(http.server.BaseHTTPRequestHandler):
+    def send_response(self, *args, **kwargs):
+        http.server.BaseHTTPRequestHandler.send_response(self, *args, **kwargs)
+        self.send_header('Access-Control-Allow-Origin', '*')
+        
     def do_POST(self):
         if self.path == '/show':
             print("/show POST. Return tasklist>>>>")
