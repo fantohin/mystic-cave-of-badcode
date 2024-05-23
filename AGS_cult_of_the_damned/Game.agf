@@ -678,7 +678,7 @@
               <PopupYPos>0</PopupYPos>
               <Top>0</Top>
               <Transparency>0</Transparency>
-              <Visible>True</Visible>
+              <Visible>False</Visible>
               <Width>480</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
@@ -689,10 +689,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>1</Font>
-                <Height>47</Height>
+                <Height>43</Height>
                 <ID>0</ID>
                 <Image>0</Image>
-                <Left>114</Left>
+                <Left>150</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_understand</Name>
@@ -702,10 +702,10 @@
                 <Text xml:space="preserve">me understands</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>532</Top>
+                <Top>555</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>255</Width>
+                <Width>192</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUILabel>
@@ -717,7 +717,7 @@
                 <Left>67</Left>
                 <Locked>False</Locked>
                 <Name>Label1</Name>
-                <Text xml:space="preserve">Kel'Thusad is slain and lays burried ...but not for long... for this is dimly lit, cavernous space filled with the pulsating vibrations of foul elуctronic music. The air is thick with the scent of magic and the faint glow of arcane energies. Someone stands at the center, a figure of enigmatic power, surrounded by members of the Cult of the Damned [[ancient dwarven CrowdSlayerDJM audio mixer ...washed in the blood of the unfaithful ...is in your hands[[You are dead[[You open your eyes and scream...  </Text>
+                <Text xml:space="preserve">Kel'Thusad is slain and lays burried ...but not for long... for this is dimly lit, cavernous space filled with the pulsating vibrations of foul elуctronic music. The air is thick with the scent of magic and the faint glow of arcane energies. Someone stands at the center, a figure of enigmatic power, surrounded by members of the Cult of the Damned [[ancient dwarven CrowdSlayerDJM audio mixer ...washed in the blood of the unfaithfuls ...is in your hands[[You are dead[[You open your eyes and scream...  </Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Top>67</Top>
@@ -772,55 +772,55 @@
                 <Enabled>True</Enabled>
                 <HandleImage>30</HandleImage>
                 <HandleOffset>0</HandleOffset>
-                <Height>3</Height>
+                <Height>4</Height>
                 <ID>0</ID>
-                <Left>60</Left>
+                <Left>160</Left>
                 <Locked>False</Locked>
-                <MaxValue>1000</MaxValue>
+                <MaxValue>2800</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_dj_set_1_scream</Name>
                 <OnChange>lvl_dj_set_1_scream_OnChange</OnChange>
-                <Top>143</Top>
+                <Top>580</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>362</Width>
+                <Width>285</Width>
                 <ZOrder>2</ZOrder>
               </GUISlider>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>1</Font>
-                <Height>218</Height>
+                <Height>134</Height>
                 <ID>1</ID>
-                <Left>3</Left>
+                <Left>19</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_1_agitation1</Name>
                 <Text>Erm?</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63585</TextColor>
-                <Top>204</Top>
+                <Top>295</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>224</Width>
+                <Width>196</Width>
                 <ZOrder>3</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>1</Font>
-                <Height>264</Height>
+                <Height>137</Height>
                 <ID>2</ID>
-                <Left>317</Left>
+                <Left>302</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_1_agitation2</Name>
                 <Text>uhhh</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63585</TextColor>
-                <Top>176</Top>
+                <Top>345</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>85</Width>
+                <Width>118</Width>
                 <ZOrder>0</ZOrder>
               </GUILabel>
               <GUIButton>
@@ -867,7 +867,7 @@
                 <Text>click</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>520</Top>
+                <Top>614</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>96</Width>
@@ -879,13 +879,13 @@
                 <Font>2</Font>
                 <Height>20</Height>
                 <ID>5</ID>
-                <Left>246</Left>
+                <Left>269</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_1_mission</Name>
                 <Text xml:space="preserve">Completed: 100%</Text>
                 <TextAlignment>Right</TextAlignment>
-                <TextColor>63488</TextColor>
-                <Top>132</Top>
+                <TextColor>0</TextColor>
+                <Top>588</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>173</Width>
@@ -921,13 +921,13 @@
                 <HandleOffset>0</HandleOffset>
                 <Height>33</Height>
                 <ID>0</ID>
-                <Left>305</Left>
+                <Left>302</Left>
                 <Locked>False</Locked>
                 <MaxValue>2</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_dj_set_2_knob</Name>
                 <OnChange>lvl_dj_set_2_knob_OnChange</OnChange>
-                <Top>302</Top>
+                <Top>307</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
@@ -940,13 +940,13 @@
                 <Font>0</Font>
                 <Height>34</Height>
                 <ID>1</ID>
-                <Left>108</Left>
+                <Left>105</Left>
                 <Locked>False</Locked>
                 <Name>Label3</Name>
                 <Text>spin</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>341</Top>
+                <Top>346</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>69</Width>
@@ -958,13 +958,13 @@
                 <Font>0</Font>
                 <Height>31</Height>
                 <ID>2</ID>
-                <Left>178</Left>
+                <Left>175</Left>
                 <Locked>False</Locked>
                 <Name>Label4</Name>
                 <Text>scratch</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>341</Top>
+                <Top>346</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>83</Width>
@@ -976,13 +976,13 @@
                 <Font>0</Font>
                 <Height>32</Height>
                 <ID>3</ID>
-                <Left>279</Left>
+                <Left>276</Left>
                 <Locked>False</Locked>
                 <Name>Label5</Name>
                 <Text xml:space="preserve">move knob:</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>341</Top>
+                <Top>346</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>154</Width>
@@ -997,7 +997,7 @@
                 <Height>53</Height>
                 <ID>4</ID>
                 <Image>7</Image>
-                <Left>156</Left>
+                <Left>153</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>9</MouseoverImage>
                 <Name>btn_dj_set_2_scratch</Name>
@@ -1007,7 +1007,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>285</Top>
+                <Top>290</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>133</Width>
@@ -1022,7 +1022,7 @@
                 <Height>55</Height>
                 <ID>5</ID>
                 <Image>10</Image>
-                <Left>99</Left>
+                <Left>96</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>11</MouseoverImage>
                 <Name>btn_dj_set_2_spin</Name>
@@ -1032,7 +1032,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>276</Top>
+                <Top>281</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>80</Width>
@@ -1044,19 +1044,19 @@
                 <Enabled>True</Enabled>
                 <HandleImage>30</HandleImage>
                 <HandleOffset>0</HandleOffset>
-                <Height>4</Height>
+                <Height>5</Height>
                 <ID>6</ID>
-                <Left>73</Left>
+                <Left>185</Left>
                 <Locked>False</Locked>
                 <MaxValue>100</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_dj_set_2_mission</Name>
                 <OnChange />
-                <Top>181</Top>
+                <Top>598</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>334</Width>
+                <Width>265</Width>
                 <ZOrder>6</ZOrder>
               </GUISlider>
               <GUISlider>
@@ -1067,13 +1067,13 @@
                 <HandleOffset>0</HandleOffset>
                 <Height>5</Height>
                 <ID>7</ID>
-                <Left>132</Left>
+                <Left>136</Left>
                 <Locked>False</Locked>
                 <MaxValue>140</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_dj_set_2_timeleft</Name>
                 <OnChange>lvl_dj_set_2_timeleft_OnChange</OnChange>
-                <Top>453</Top>
+                <Top>179</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
@@ -1086,13 +1086,13 @@
                 <Font>1</Font>
                 <Height>30</Height>
                 <ID>8</ID>
-                <Left>92</Left>
+                <Left>96</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_2_reqaction</Name>
                 <Text xml:space="preserve">you need to spin the disk</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>65504</TextColor>
-                <Top>472</Top>
+                <Top>198</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>294</Width>
@@ -1102,18 +1102,18 @@
                 <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
                 <Font>1</Font>
-                <Height>42</Height>
+                <Height>41</Height>
                 <ID>9</ID>
-                <Left>54</Left>
+                <Left>12</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_2_result</Name>
                 <Text>...</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>397</Top>
+                <Top>144</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>370</Width>
+                <Width>464</Width>
                 <ZOrder>9</ZOrder>
               </GUILabel>
               <GUILabel>
@@ -1122,13 +1122,13 @@
                 <Font>2</Font>
                 <Height>30</Height>
                 <ID>10</ID>
-                <Left>225</Left>
+                <Left>256</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_2_mission</Name>
                 <Text xml:space="preserve">Completed: 100%</Text>
                 <TextAlignment>Right</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>193</Top>
+                <Top>590</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>191</Width>
@@ -1140,13 +1140,13 @@
                 <Font>0</Font>
                 <Height>56</Height>
                 <ID>11</ID>
-                <Left>-4</Left>
+                <Left>4</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_2_info1</Name>
                 <Text>..</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>212</Top>
+                <Top>413</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>144</Width>
@@ -1158,13 +1158,13 @@
                 <Font>0</Font>
                 <Height>53</Height>
                 <ID>12</ID>
-                <Left>325</Left>
+                <Left>320</Left>
                 <Locked>False</Locked>
                 <Name>txt_dj_set_2_info2</Name>
                 <Text>..</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>220</Top>
+                <Top>431</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>138</Width>
@@ -1179,7 +1179,7 @@
                 <Height>154</Height>
                 <ID>13</ID>
                 <Image>3</Image>
-                <Left>78</Left>
+                <Left>75</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button2</Name>
@@ -1189,7 +1189,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>193</Top>
+                <Top>198</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>328</Width>
@@ -1216,7 +1216,26 @@
               <Width>480</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
-            <Controls />
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>2</Font>
+                <Height>64</Height>
+                <ID>0</ID>
+                <Left>310</Left>
+                <Locked>False</Locked>
+                <Name>Label2</Name>
+                <Text xml:space="preserve">NOTES: video cutscene</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Top>100</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>238</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+            </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
@@ -1269,9 +1288,9 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>180</Height>
+                <Height>166</Height>
                 <ID>1</ID>
-                <Image>17</Image>
+                <Image>48</Image>
                 <Left>203</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
@@ -1382,7 +1401,7 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>63519</BackgroundColor>
-              <BackgroundImage>40</BackgroundImage>
+              <BackgroundImage>46</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
               <Height>640</Height>
@@ -1407,18 +1426,18 @@
                 <HandleOffset>0</HandleOffset>
                 <Height>16</Height>
                 <ID>0</ID>
-                <Left>-1</Left>
+                <Left>-6</Left>
                 <Locked>False</Locked>
                 <MaxValue>1000</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_hideout_day</Name>
                 <OnChange>Slider1_OnChange</OnChange>
-                <Top>629</Top>
+                <Top>627</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>453</Width>
-                <ZOrder>6</ZOrder>
+                <Width>486</Width>
+                <ZOrder>8</ZOrder>
               </GUISlider>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1426,10 +1445,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>50</Height>
+                <Height>49</Height>
                 <ID>1</ID>
                 <Image>0</Image>
-                <Left>17</Left>
+                <Left>152</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_work_mine</Name>
@@ -1439,11 +1458,11 @@
                 <Text>Mine</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>85</Top>
+                <Top>179</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>55</Width>
-                <ZOrder>11</ZOrder>
+                <Width>56</Width>
+                <ZOrder>13</ZOrder>
               </GUIButton>
               <GUISlider>
                 <BackgroundImage>0</BackgroundImage>
@@ -1451,20 +1470,20 @@
                 <Enabled>True</Enabled>
                 <HandleImage>0</HandleImage>
                 <HandleOffset>0</HandleOffset>
-                <Height>8</Height>
+                <Height>7</Height>
                 <ID>2</ID>
-                <Left>17</Left>
+                <Left>152</Left>
                 <Locked>False</Locked>
                 <MaxValue>100</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_work_mine</Name>
                 <OnChange />
-                <Top>133</Top>
+                <Top>227</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
                 <Width>56</Width>
-                <ZOrder>7</ZOrder>
+                <ZOrder>9</ZOrder>
               </GUISlider>
               <GUILabel>
                 <Clickable>False</Clickable>
@@ -1472,17 +1491,17 @@
                 <Font>0</Font>
                 <Height>18</Height>
                 <ID>3</ID>
-                <Left>17</Left>
+                <Left>153</Left>
                 <Locked>False</Locked>
                 <Name>txt_work_mine</Name>
                 <Text>0</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>110</Top>
+                <Top>203</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>55</Width>
-                <ZOrder>12</ZOrder>
+                <ZOrder>14</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1495,12 +1514,12 @@
                 <Name>Label13</Name>
                 <Text xml:space="preserve">random event:</Text>
                 <TextAlignment>Left</TextAlignment>
-                <TextColor>65504</TextColor>
+                <TextColor>63488</TextColor>
                 <Top>611</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>198</Width>
-                <ZOrder>8</ZOrder>
+                <ZOrder>10</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1508,24 +1527,24 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>50</Height>
+                <Height>49</Height>
                 <ID>5</ID>
                 <Image>0</Image>
-                <Left>85</Left>
+                <Left>12</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_work_greg</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btn_work_greg_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
-                <Text>Greg</Text>
+                <Text>Lumbermill</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>85</Top>
+                <Top>179</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>55</Width>
-                <ZOrder>9</ZOrder>
+                <Width>127</Width>
+                <ZOrder>11</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>False</Clickable>
@@ -1533,17 +1552,17 @@
                 <Font>0</Font>
                 <Height>22</Height>
                 <ID>6</ID>
-                <Left>85</Left>
+                <Left>48</Left>
                 <Locked>False</Locked>
                 <Name>txt_work_greg</Name>
                 <Text>1</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>110</Top>
+                <Top>203</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>52</Width>
-                <ZOrder>10</ZOrder>
+                <ZOrder>12</ZOrder>
               </GUILabel>
               <GUISlider>
                 <BackgroundImage>0</BackgroundImage>
@@ -1551,20 +1570,20 @@
                 <Enabled>True</Enabled>
                 <HandleImage>0</HandleImage>
                 <HandleOffset>0</HandleOffset>
-                <Height>8</Height>
+                <Height>7</Height>
                 <ID>7</ID>
-                <Left>85</Left>
+                <Left>12</Left>
                 <Locked>False</Locked>
-                <MaxValue>100</MaxValue>
+                <MaxValue>1800</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_work_greg</Name>
                 <OnChange />
-                <Top>133</Top>
+                <Top>227</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>56</Width>
-                <ZOrder>1</ZOrder>
+                <Width>127</Width>
+                <ZOrder>3</ZOrder>
               </GUISlider>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1582,7 +1601,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>109</Width>
-                <ZOrder>16</ZOrder>
+                <ZOrder>18</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1600,7 +1619,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>111</Width>
-                <ZOrder>14</ZOrder>
+                <ZOrder>16</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1611,7 +1630,7 @@
                 <Height>172</Height>
                 <ID>10</ID>
                 <Image>34</Image>
-                <Left>251</Left>
+                <Left>293</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>img_visitor_blacksmith</Name>
@@ -1625,7 +1644,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>176</Width>
-                <ZOrder>5</ZOrder>
+                <ZOrder>7</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1650,7 +1669,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>222</Width>
-                <ZOrder>13</ZOrder>
+                <ZOrder>15</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1675,43 +1694,43 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>222</Width>
-                <ZOrder>15</ZOrder>
+                <ZOrder>17</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>222</Height>
+                <Height>100</Height>
                 <ID>13</ID>
-                <Left>251</Left>
+                <Left>255</Left>
                 <Locked>False</Locked>
                 <Name>txt_work_visitordialog</Name>
                 <Text xml:space="preserve">*elevator music*</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>65504</TextColor>
-                <Top>347</Top>
+                <Top>295</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>227</Width>
-                <ZOrder>17</ZOrder>
+                <ZOrder>29</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>1</Font>
-                <Height>68</Height>
+                <Height>96</Height>
                 <ID>14</ID>
-                <Left>259</Left>
+                <Left>273</Left>
                 <Locked>False</Locked>
                 <Name>txt_work_visitorname</Name>
-                <Text xml:space="preserve">THE VISITOR</Text>
+                <Text>.........................</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>575</Top>
+                <Top>543</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>189</Width>
-                <ZOrder>25</ZOrder>
+                <Width>201</Width>
+                <ZOrder>26</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1736,7 +1755,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>223</Width>
-                <ZOrder>18</ZOrder>
+                <ZOrder>19</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1761,7 +1780,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>43</Width>
-                <ZOrder>19</ZOrder>
+                <ZOrder>20</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1786,7 +1805,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>43</Width>
-                <ZOrder>20</ZOrder>
+                <ZOrder>21</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1811,7 +1830,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>43</Width>
-                <ZOrder>21</ZOrder>
+                <ZOrder>22</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1836,7 +1855,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>43</Width>
-                <ZOrder>22</ZOrder>
+                <ZOrder>23</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -1854,7 +1873,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>105</Width>
-                <ZOrder>24</ZOrder>
+                <ZOrder>25</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1865,7 +1884,7 @@
                 <Height>166</Height>
                 <ID>21</ID>
                 <Image>34</Image>
-                <Left>251</Left>
+                <Left>288</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>img_visitor_salesman</Name>
@@ -1879,7 +1898,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>165</Width>
-                <ZOrder>2</ZOrder>
+                <ZOrder>4</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1890,7 +1909,7 @@
                 <Height>174</Height>
                 <ID>22</ID>
                 <Image>17</Image>
-                <Left>251</Left>
+                <Left>288</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>img_visitor_peasant</Name>
@@ -1904,7 +1923,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>159</Width>
-                <ZOrder>3</ZOrder>
+                <ZOrder>5</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1915,7 +1934,7 @@
                 <Height>160</Height>
                 <ID>23</ID>
                 <Image>16</Image>
-                <Left>259</Left>
+                <Left>300</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>img_visitor_unfaithful</Name>
@@ -1925,11 +1944,11 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>482</Top>
+                <Top>487</Top>
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>148</Width>
-                <ZOrder>4</ZOrder>
+                <ZOrder>6</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -1940,7 +1959,7 @@
                 <Height>180</Height>
                 <ID>24</ID>
                 <Image>35</Image>
-                <Left>259</Left>
+                <Left>300</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>img_visitor_humanslave</Name>
@@ -1950,31 +1969,117 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>465</Top>
+                <Top>466</Top>
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>133</Width>
-                <ZOrder>23</ZOrder>
+                <ZOrder>24</ZOrder>
               </GUIButton>
               <GUITextBox>
                 <Clickable>True</Clickable>
                 <Enabled>False</Enabled>
                 <Font>0</Font>
-                <Height>60</Height>
+                <Height>59</Height>
                 <ID>25</ID>
-                <Left>82</Left>
+                <Left>11</Left>
                 <Locked>False</Locked>
-                <Name>TextBox1</Name>
+                <Name>img_timauto</Name>
                 <OnActivate />
                 <ShowBorder>True</ShowBorder>
                 <Text />
-                <TextColor>32799</TextColor>
-                <Top>83</Top>
+                <TextColor>65520</TextColor>
+                <Top>177</Top>
                 <Translated>False</Translated>
-                <Visible>True</Visible>
-                <Width>60</Width>
-                <ZOrder>0</ZOrder>
+                <Visible>False</Visible>
+                <Width>130</Width>
+                <ZOrder>2</ZOrder>
               </GUITextBox>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>74</Height>
+                <ID>26</ID>
+                <Left>11</Left>
+                <Locked>False</Locked>
+                <Name>txt_work_tim</Name>
+                <Text xml:space="preserve">Tim: I won't go near that mine AGAIN ...i am scared of confined spaces</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>65504</TextColor>
+                <Top>92</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>230</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>44</Height>
+                <ID>27</ID>
+                <Image>0</Image>
+                <Left>245</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>img_visitortextbg</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text>.</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>284</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>225</Width>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>24</Height>
+                <ID>28</ID>
+                <Image>0</Image>
+                <Left>447</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btn_work_killdialog</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_work_killdialog_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>X</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>276</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>29</Width>
+                <ZOrder>27</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>37</Height>
+                <ID>29</ID>
+                <Left>599</Left>
+                <Locked>False</Locked>
+                <Name>Label7</Name>
+                <Text xml:space="preserve">send members to work:</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Top>121</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>154</Width>
+                <ZOrder>28</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2001,18 +2106,18 @@
                 <Clickable>False</Clickable>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>37</Height>
+                <Height>34</Height>
                 <ID>0</ID>
-                <Left>98</Left>
+                <Left>53</Left>
                 <Locked>False</Locked>
                 <Name>Label6</Name>
                 <Text xml:space="preserve">+members join cult of the damned</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>65504</TextColor>
-                <Top>121</Top>
+                <Top>70</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>298</Width>
+                <Width>392</Width>
                 <ZOrder>0</ZOrder>
               </GUILabel>
             </Controls>
@@ -2043,17 +2148,35 @@
                 <Font>1</Font>
                 <Height>58</Height>
                 <ID>0</ID>
-                <Left>69</Left>
+                <Left>72</Left>
                 <Locked>False</Locked>
                 <Name>txt_location_info</Name>
                 <Text xml:space="preserve">New Label</Text>
                 <TextAlignment>Center</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>287</Top>
+                <Top>172</Top>
                 <Translated>False</Translated>
                 <Visible>True</Visible>
                 <Width>339</Width>
                 <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>43</Height>
+                <ID>1</ID>
+                <Left>109</Left>
+                <Locked>False</Locked>
+                <Name>Label11</Name>
+                <Text>LOCATION[____________________________</Text>
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Top>128</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>264</Width>
+                <ZOrder>1</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -2083,17 +2206,17 @@
                 <Font>0</Font>
                 <Height>186</Height>
                 <ID>0</ID>
-                <Left>65</Left>
+                <Left>47</Left>
                 <Locked>False</Locked>
                 <Name>txt_quests</Name>
                 <Text>Help:</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>408</Top>
+                <Top>387</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>381</Width>
-                <ZOrder>1</ZOrder>
+                <ZOrder>5</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -2111,7 +2234,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>363</Width>
-                <ZOrder>2</ZOrder>
+                <ZOrder>6</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -2129,7 +2252,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>415</Width>
-                <ZOrder>3</ZOrder>
+                <ZOrder>7</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -2147,7 +2270,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>415</Width>
-                <ZOrder>4</ZOrder>
+                <ZOrder>8</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -2165,7 +2288,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>388</Width>
-                <ZOrder>5</ZOrder>
+                <ZOrder>9</ZOrder>
               </GUILabel>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -2183,7 +2306,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>386</Width>
-                <ZOrder>6</ZOrder>
+                <ZOrder>10</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2191,10 +2314,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>False</Enabled>
                 <Font>0</Font>
-                <Height>525</Height>
+                <Height>255</Height>
                 <ID>6</ID>
-                <Image>0</Image>
-                <Left>28</Left>
+                <Image>47</Image>
+                <Left>235</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button3</Name>
@@ -2204,11 +2327,11 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>58</Top>
+                <Top>76</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>426</Width>
-                <ZOrder>0</ZOrder>
+                <Width>224</Width>
+                <ZOrder>4</ZOrder>
               </GUIButton>
               <GUILabel>
                 <Clickable>False</Clickable>
@@ -2216,17 +2339,17 @@
                 <Font>0</Font>
                 <Height>24</Height>
                 <ID>7</ID>
-                <Left>58</Left>
+                <Left>47</Left>
                 <Locked>False</Locked>
                 <Name>Label14</Name>
                 <Text>quests:</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>69</Top>
+                <Top>76</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>415</Width>
-                <ZOrder>7</ZOrder>
+                <ZOrder>11</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2234,10 +2357,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>29</Height>
+                <Height>23</Height>
                 <ID>8</ID>
                 <Image>0</Image>
-                <Left>431</Left>
+                <Left>428</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_quests_x</Name>
@@ -2247,11 +2370,129 @@
                 <Text>X</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>58</Top>
+                <Top>79</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>38</Width>
-                <ZOrder>8</ZOrder>
+                <Width>28</Width>
+                <ZOrder>12</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>34</Height>
+                <ID>9</ID>
+                <Left>36</Left>
+                <Locked>False</Locked>
+                <Name>txt_quests_tip</Name>
+                <Text xml:space="preserve">New Label</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>595</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>422</Width>
+                <ZOrder>13</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>256</Height>
+                <ID>10</ID>
+                <Image>47</Image>
+                <Left>25</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>314</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>229</Width>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>262</Height>
+                <ID>11</ID>
+                <Image>47</Image>
+                <Left>164</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button4</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>300</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>250</Width>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>254</Height>
+                <ID>12</ID>
+                <Image>47</Image>
+                <Left>25</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button6</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>76</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>238</Width>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>236</Height>
+                <ID>13</ID>
+                <Image>47</Image>
+                <Left>235</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button7</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>331</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>222</Width>
+                <ZOrder>0</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -2261,7 +2502,7 @@
               <BackgroundImage>0</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>53</Height>
+              <Height>50</Height>
               <ID>9</ID>
               <Left>0</Left>
               <Name>mgui_overview</Name>
@@ -2302,7 +2543,7 @@
                 <Height>35</Height>
                 <ID>1</ID>
                 <Image>15</Image>
-                <Left>413</Left>
+                <Left>415</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_quests</Name>
@@ -2312,7 +2553,7 @@
                 <Text>Quests</Text>
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>65535</TextColor>
-                <Top>10</Top>
+                <Top>16</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>67</Width>
@@ -2336,48 +2577,150 @@
                 <Width>108</Width>
                 <ZOrder>4</ZOrder>
               </GUILabel>
-              <GUISlider>
-                <BackgroundImage>0</BackgroundImage>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <Height>49</Height>
-                <ID>3</ID>
-                <Left>-13</Left>
-                <Locked>False</Locked>
-                <MaxValue>10</MaxValue>
-                <MinValue>0</MinValue>
-                <Name>Slider1</Name>
-                <OnChange />
-                <Top>3</Top>
-                <Translated>True</Translated>
-                <Value>0</Value>
-                <Visible>True</Visible>
-                <Width>132</Width>
-                <ZOrder>1</ZOrder>
-              </GUISlider>
-              <GUISlider>
-                <BackgroundImage>0</BackgroundImage>
+              <GUILabel>
                 <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>26</Height>
+                <ID>3</ID>
+                <Left>169</Left>
+                <Locked>False</Locked>
+                <Name>txt_debug</Name>
+                <Text>DEBUG</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>16</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>197</Width>
+                <ZOrder>5</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
                 <Enabled>False</Enabled>
-                <HandleImage>0</HandleImage>
-                <HandleOffset>0</HandleOffset>
-                <Height>36</Height>
+                <Font>0</Font>
+                <Height>40</Height>
                 <ID>4</ID>
+                <Image>47</Image>
+                <Left>5</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button8</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text>.</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>10</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>150</Width>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>40</Height>
+                <ID>5</ID>
+                <Image>47</Image>
                 <Left>405</Left>
                 <Locked>False</Locked>
-                <MaxValue>10</MaxValue>
-                <MinValue>0</MinValue>
-                <Name>Slider2</Name>
-                <OnChange />
-                <Top>8</Top>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button9</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text>.</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>9</Top>
                 <Translated>True</Translated>
-                <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>96</Width>
+                <Width>150</Width>
                 <ZOrder>0</ZOrder>
-              </GUISlider>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>640</Height>
+              <ID>11</ID>
+              <Left>0</Left>
+              <Name>mainmenu</Name>
+              <OnClick>mainmenu_OnClick</OnClick>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>True</Visible>
+              <Width>480</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>76</Height>
+                <ID>0</ID>
+                <Left>93</Left>
+                <Locked>False</Locked>
+                <Name>Label9</Name>
+                <Text xml:space="preserve">CULT OF THE DAMNED II[unerground summoning ritual</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>64</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>297</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>3</Font>
+                <Height>44</Height>
+                <ID>1</ID>
+                <Left>11</Left>
+                <Locked>False</Locked>
+                <Name>txt_mainmenu_tip</Name>
+                <Text />
+                <TextAlignment>Center</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>592</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>458</Width>
+                <ZOrder>1</ZOrder>
+              </GUILabel>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>25</Height>
+                <ID>2</ID>
+                <Left>93</Left>
+                <Locked>False</Locked>
+                <Name>txt_clicktostart</Name>
+                <Text xml:space="preserve">* click to start/continue *</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Top>495</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>305</Width>
+                <ZOrder>2</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -2794,6 +3137,20 @@
         <PointSize>0</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename />
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>3</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name xml:space="preserve">Font 3</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <PointSize>10</PointSize>
+        <SizeMultiplier>2</SizeMultiplier>
+        <SourceFilename>C:\Users\SuicideT4ctics\Downloads\Arial-MT-Std-Italic.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
@@ -3726,6 +4083,81 @@
               <RemapToGamePalette>False</RemapToGamePalette>
               <RemapToRoomPalette>False</RemapToRoomPalette>
               <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="44" Width="395" Height="527" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\Untitled.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>527</ImportHeight>
+              <ImportWidth>395</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="45" Width="400" Height="535" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\Untitled (1).png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>535</ImportHeight>
+              <ImportWidth>400</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="46" Width="483" Height="641" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\Untitled (1).png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>641</ImportHeight>
+              <ImportWidth>483</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="47" Width="225" Height="255" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\1.bmp</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>255</ImportHeight>
+              <ImportWidth>225</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>LeaveAsIs</ImportMethod>
+              <ImportAlphaChannel>True</ImportAlphaChannel>
+            </Source>
+          </Sprite>
+          <Sprite Slot="48" Width="165" Height="166" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\tim_dev.png</FileName>
+              <OffsetX>0</OffsetX>
+              <OffsetY>0</OffsetY>
+              <ImportHeight>166</ImportHeight>
+              <ImportWidth>165</ImportWidth>
+              <ImportAsTile>False</ImportAsTile>
+              <Frame>0</Frame>
+              <RemapToGamePalette>False</RemapToGamePalette>
+              <RemapToRoomPalette>False</RemapToRoomPalette>
+              <ImportMethod>TopLeft</ImportMethod>
               <ImportAlphaChannel>True</ImportAlphaChannel>
             </Source>
           </Sprite>
