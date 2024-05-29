@@ -19,7 +19,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>_Debug=cotdfg2,DataFile=cotdfg2,Windows=cotdfg2,Web=cotdfg2,</LastBuildGameFileName>
+    <LastBuildGameFileName>_Debug=cotdfg2,DataFile=cotdfg2,Windows=cotdfg2,Web=cotdfg2,Android=cotdfg2,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>

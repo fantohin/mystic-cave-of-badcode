@@ -15,7 +15,7 @@
       <AudioIndexer>0</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
-      <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
+      <BuildTargets xml:space="preserve">Windows, Web, Android</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>None</CompressSpritesType>
@@ -896,7 +896,7 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>32</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>55</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
               <Height>640</Height>
@@ -1195,12 +1195,30 @@
                 <Width>328</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>2</Font>
+                <Height>28</Height>
+                <ID>14</ID>
+                <Left>16</Left>
+                <Locked>False</Locked>
+                <Name>Label10</Name>
+                <Text xml:space="preserve">&lt;3 &lt;3 notes: will switch to only 2 mistakes allowed</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>65504</TextColor>
+                <Top>124</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>122</Width>
+                <ZOrder>14</ZOrder>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>26</BackgroundImage>
+              <BackgroundImage>56</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
               <Height>640</Height>
@@ -1240,13 +1258,13 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>32</BackgroundColor>
-              <BackgroundImage>39</BackgroundImage>
+              <BackgroundImage>59</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
               <Height>640</Height>
               <ID>3</ID>
               <Left>0</Left>
-              <Name>gui_hideout</Name>
+              <Name>gui_hideout_1</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
@@ -1339,7 +1357,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_okay</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>btn_okay_OnClick</OnClick>
+                <OnClick>btn_dialog_afterdjset3_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
                 <Text>understood</Text>
                 <TextAlignment>TopCenter</TextAlignment>
@@ -1401,7 +1419,7 @@
           <GUIMain>
             <NormalGUI>
               <BackgroundColor>63519</BackgroundColor>
-              <BackgroundImage>46</BackgroundImage>
+              <BackgroundImage>57</BackgroundImage>
               <BorderColor>2</BorderColor>
               <Clickable>True</Clickable>
               <Height>640</Height>
@@ -1422,21 +1440,21 @@
                 <BackgroundImage>0</BackgroundImage>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <HandleImage>0</HandleImage>
+                <HandleImage>31</HandleImage>
                 <HandleOffset>0</HandleOffset>
-                <Height>16</Height>
+                <Height>3</Height>
                 <ID>0</ID>
-                <Left>-6</Left>
+                <Left>17</Left>
                 <Locked>False</Locked>
                 <MaxValue>1000</MaxValue>
                 <MinValue>0</MinValue>
                 <Name>lvl_hideout_day</Name>
                 <OnChange>Slider1_OnChange</OnChange>
-                <Top>627</Top>
+                <Top>617</Top>
                 <Translated>True</Translated>
                 <Value>0</Value>
                 <Visible>True</Visible>
-                <Width>486</Width>
+                <Width>440</Width>
                 <ZOrder>8</ZOrder>
               </GUISlider>
               <GUIButton>
@@ -1515,7 +1533,7 @@
                 <Text xml:space="preserve">random event:</Text>
                 <TextAlignment>Left</TextAlignment>
                 <TextColor>63488</TextColor>
-                <Top>611</Top>
+                <Top>593</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>198</Width>
@@ -1680,14 +1698,14 @@
                 <Height>24</Height>
                 <ID>12</ID>
                 <Image>0</Image>
-                <Left>12</Left>
+                <Left>13</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_work_msplinters</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick />
                 <PushedImage>0</PushedImage>
-                <Text>wood:</Text>
+                <Text>roots:</Text>
                 <TextAlignment>MiddleLeft</TextAlignment>
                 <TextColor>0</TextColor>
                 <Top>565</Top>
@@ -1700,9 +1718,9 @@
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>100</Height>
+                <Height>97</Height>
                 <ID>13</ID>
-                <Left>255</Left>
+                <Left>223</Left>
                 <Locked>False</Locked>
                 <Name>txt_work_visitordialog</Name>
                 <Text xml:space="preserve">*elevator music*</Text>
@@ -1711,7 +1729,7 @@
                 <Top>295</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>227</Width>
+                <Width>249</Width>
                 <ZOrder>29</ZOrder>
               </GUILabel>
               <GUILabel>
@@ -1976,23 +1994,23 @@
                 <ZOrder>24</ZOrder>
               </GUIButton>
               <GUITextBox>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <Enabled>False</Enabled>
                 <Font>0</Font>
                 <Height>59</Height>
                 <ID>25</ID>
                 <Left>11</Left>
                 <Locked>False</Locked>
-                <Name>img_timauto</Name>
+                <Name>img_timauto1</Name>
                 <OnActivate />
                 <ShowBorder>True</ShowBorder>
                 <Text />
-                <TextColor>65520</TextColor>
+                <TextColor>63504</TextColor>
                 <Top>177</Top>
                 <Translated>False</Translated>
-                <Visible>False</Visible>
+                <Visible>True</Visible>
                 <Width>130</Width>
-                <ZOrder>2</ZOrder>
+                <ZOrder>32</ZOrder>
               </GUITextBox>
               <GUILabel>
                 <Clickable>True</Clickable>
@@ -2010,7 +2028,7 @@
                 <Translated>True</Translated>
                 <Visible>False</Visible>
                 <Width>230</Width>
-                <ZOrder>0</ZOrder>
+                <ZOrder>1</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2021,7 +2039,7 @@
                 <Height>44</Height>
                 <ID>27</ID>
                 <Image>0</Image>
-                <Left>245</Left>
+                <Left>215</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>img_visitortextbg</Name>
@@ -2034,8 +2052,8 @@
                 <Top>284</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>225</Width>
-                <ZOrder>1</ZOrder>
+                <Width>262</Width>
+                <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -2043,10 +2061,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>24</Height>
+                <Height>20</Height>
                 <ID>28</ID>
                 <Image>0</Image>
-                <Left>447</Left>
+                <Left>448</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_work_killdialog</Name>
@@ -2056,7 +2074,7 @@
                 <Text>X</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>276</Top>
+                <Top>264</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>29</Width>
@@ -2079,6 +2097,86 @@
                 <Visible>False</Visible>
                 <Width>154</Width>
                 <ZOrder>28</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>166</Height>
+                <ID>30</ID>
+                <Image>34</Image>
+                <Left>293</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>img_visitor_knight</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>img_visitor_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>466</Top>
+                <Translated>True</Translated>
+                <Visible>False</Visible>
+                <Width>165</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>17</Height>
+                <ID>31</ID>
+                <Left>72</Left>
+                <Locked>False</Locked>
+                <Name>txt_timauto1</Name>
+                <Text>Tim</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Top>160</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>68</Width>
+                <ZOrder>30</ZOrder>
+              </GUILabel>
+              <GUITextBox>
+                <Clickable>False</Clickable>
+                <Enabled>False</Enabled>
+                <Font>0</Font>
+                <Height>58</Height>
+                <ID>32</ID>
+                <Left>152</Left>
+                <Locked>False</Locked>
+                <Name>img_timauto2</Name>
+                <OnActivate />
+                <ShowBorder>True</ShowBorder>
+                <Text />
+                <TextColor>63504</TextColor>
+                <Top>177</Top>
+                <Translated>False</Translated>
+                <Visible>True</Visible>
+                <Width>58</Width>
+                <ZOrder>31</ZOrder>
+              </GUITextBox>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>17</Height>
+                <ID>33</ID>
+                <Left>171</Left>
+                <Locked>False</Locked>
+                <Name>txt_timauto2</Name>
+                <Text>Tim</Text>
+                <TextAlignment>Right</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Top>160</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>38</Width>
+                <ZOrder>33</ZOrder>
               </GUILabel>
             </Controls>
           </GUIMain>
@@ -2190,7 +2288,7 @@
               <ID>8</ID>
               <Left>0</Left>
               <Name>mgui_quests</Name>
-              <OnClick />
+              <OnClick>btn_quests_x_OnClick</OnClick>
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
               <Top>0</Top>
@@ -2360,7 +2458,7 @@
                 <Height>23</Height>
                 <ID>8</ID>
                 <Image>0</Image>
-                <Left>428</Left>
+                <Left>427</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btn_quests_x</Name>
@@ -2370,7 +2468,7 @@
                 <Text>X</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>79</Top>
+                <Top>81</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>28</Width>
@@ -2488,7 +2586,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>332</Top>
+                <Top>331</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>222</Width>
@@ -2721,6 +2819,146 @@
                 <Width>305</Width>
                 <ZOrder>2</ZOrder>
               </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>32</BackgroundColor>
+              <BackgroundImage>39</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>640</Height>
+              <ID>12</ID>
+              <Left>0</Left>
+              <Name>gui_dialog_knight</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>480</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>166</Height>
+                <ID>0</ID>
+                <Image>34</Image>
+                <Left>105</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>img_dialogknight_knight</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>360</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>165</Width>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>166</Height>
+                <ID>1</ID>
+                <Image>51</Image>
+                <Left>234</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>img_dialogknight_greg</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>img_greg_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>363</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>165</Width>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>1</Font>
+                <Height>85</Height>
+                <ID>2</ID>
+                <Left>17</Left>
+                <Locked>False</Locked>
+                <Name>txt_dialogknight_dialog</Name>
+                <Text xml:space="preserve">click anywhere</Text>
+                <TextAlignment>Left</TextAlignment>
+                <TextColor>63488</TextColor>
+                <Top>537</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>434</Width>
+                <ZOrder>3</ZOrder>
+              </GUILabel>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>761</Height>
+                <ID>3</ID>
+                <Image>52</Image>
+                <Left>-34</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btn_dialogknight_okay</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btn_dialog_knight_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>understood</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>-123</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>513</Width>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>2</Height>
+                <ID>4</ID>
+                <Image>0</Image>
+                <Left>139</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button52</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text>.</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>525</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>220</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -3419,7 +3657,7 @@
     <Sprites>
       <SpriteFolder Name="Main">
         <SubFolders>
-          <SpriteFolder Name="djset_1">
+          <SpriteFolder Name="dj_set_1">
             <SubFolders />
             <Sprites>
               <Sprite Slot="36" Width="1024" Height="768" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -3474,6 +3712,186 @@
                   <OffsetY>0</OffsetY>
                   <ImportHeight>80</ImportHeight>
                   <ImportWidth>96</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="knight_dialog">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="49" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="50" Width="160" Height="160" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="51" Width="165" Height="166" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="52" Width="340" Height="7" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName />
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>0</ImportHeight>
+                  <ImportWidth>0</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>False</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="dj_set_2">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="53" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\dj_set_2_BAD.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="54" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\dj_set_2_GOOD.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="55" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\dj_set_2_NOTHING.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="56" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\dj_set_3.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="clicker">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="57" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\2 chairs GREG empty.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="58" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\2 chairs GREG.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="59" Width="480" Height="640" ColorDepth="32" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\SuicideT4ctics\Downloads\cultofthedamned\2 chairs.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>640</ImportHeight>
+                  <ImportWidth>480</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>False</RemapToGamePalette>
