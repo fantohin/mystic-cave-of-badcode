@@ -3,6 +3,8 @@ import time
 # Function to update the tt.txt file and keep track of activity times
 def update_tt(activity_time, activity_name):
     global activities_times
+    activities_times = {}
+
     # Open the file in append mode and write the new entry
     with open('tt.txt', 'a') as file:
         file.write(f"{activity_time} {activity_name}\n")
