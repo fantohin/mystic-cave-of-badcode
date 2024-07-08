@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Adventurer Aplication</title>
+  </head>
+  <body>
+   <h1 id='title'>Adventurer Aplication</h1>
+   <p id="description"> To apply for any adventure guild quests fill in and submit this survey.</p>
+   <form id="survey-form">
+   <label for="name" id="name-label"> Handle</label>
+   <br>
+   <input required id="name" type="text" placeholder="riverslayer"/>
+   <br>
+   <label for="email" id="email-label"> Email</label>
+   <br>
+   <input required id="email" type="email" placeholder="slayer@rivermail.com"/>
+   <br>
+   <label for="number" id="number-label">Victories:</label>
+   <br>
+   <input required id="number" type="number" min=0 max=20 placeholder=20/>
+   <br>
+   <label for="dropdown" id="dropdown-label">Weapon:</label>
+   <br>
+   <select id="dropdown">
+   <option value="sword">sword</option>
+   <option value="staff">staff</option>
+   <option selected value="violin">violin</option>
+   </select>
+   <br>
+   <pr>Sidekick:</pr>
+   <br>
+   <input type="radio" id="alone" name="sidekick" value="alone" />
+   <label for="alone">no, me works alone.</label>
+   <br>
+   <input type="radio" id="whynot" name="sidekick" value="whynot" />
+   <label for="whynot">yes, why not?</label>
+   <br>
+   <pr>Adventuring experience:</pr>
+   <br>
+   <input type="checkbox" value="dungeons" id="dungeons" name="experience">
+   <label for="dungeons">dungeons</label>
+   <br>
+   <input type="checkbox" value="crypts" id="crypts" name="experience">
+   <label for="dungeons">crypts</label>
+   <br>
+   <label for="text">Your battle chant:</label>
+   <br>
+   <textarea rows="10" cols="45" name="text"></textarea>
+   <br>
+   <input type="submit" id="submit" value="Submit">
+   </form>
+  </body>
+</html>
